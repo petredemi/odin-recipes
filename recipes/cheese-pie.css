@@ -1,0 +1,31 @@
+h1 {
+    background-color: bisque;
+    font-size: 40px;
+    color: darkorange;
+    font-size: xx-large;
+}
+.pie {
+    background-color: aquamarine;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.start {
+    color:coral;
+    font-size: 25px;
+    font-weight: 800;
+}
+.ing {
+    color: red;
+    font-size: 20px;
+}
+.ingredients {
+    color:darkgreen;
+    font-size: 18px;
+    font-weight: 700;
+}
+.steps{
+    color: dodgerblue;
+    font-size: 18px;
+    font-weight: 700;
+}

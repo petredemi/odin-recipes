@@ -1,0 +1,21 @@
+h1 {color: chocolate;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma;
+    background-color: darkgrey;
+}
+
+.silva {
+    background-color: yellowgreen;
+    color: brown;
+    font-size: 22px;
+    font-weight: 800;
+}
+.button {
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+#cheese-button {
+    background-color: darkseagreen;
+}
