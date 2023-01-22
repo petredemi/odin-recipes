@@ -50,9 +50,10 @@ h1 {color: rgb(238, 22, 7);
     box-shadow: 8px -8px 8px rgb(88, 77, 77);
 }
 .dishes button{
-    font-size: 20px;
+    font-size: 25px;
     background: rgb(239, 189, 64);
     margin: 10px;
+    font-weight: bold;
 
 }
 
