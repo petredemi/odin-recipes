@@ -22,7 +22,7 @@ h3 {
 .images{
     display: block;
     padding: 10px;
-    margin: 20px;
+    margin: 5px;
     text-align: center;
     background: rgb(249, 249, 171);
     border: 3px solid rgb(9, 35, 35);
@@ -40,13 +40,13 @@ li, p{
     font-size: 18px;
 }
 ul, ol{
-    margin-left: 60px;
+    margin-left: 40px;
     border-radius: 15px;
     border: 2px solid black;
     background: rgb(174, 243, 185);
-    padding-left: 40px;
+    padding-left: 30px;
 }
 ol {
-    margin-left: 60px;
+    margin-left: 40px;
     background: rgb(243, 243, 182);
 }
