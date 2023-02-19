@@ -1,5 +1,8 @@
+
 body {
-    background: rgb(233, 221, 221);}
+    background: rgb(233, 221, 221);
+    margin: 15px;
+}
 
 h1 {color: rgb(238, 22, 7);
     font-size: 70px;
@@ -17,35 +20,38 @@ h1 {color: rgb(238, 22, 7);
 }
 .content {
     background: rgb(244, 244, 143);
-    margin: 40px;
+    margin: 20px;
     display: flex;
+    justify-content: center;
     padding: 5px;
     flex-wrap: wrap;
-    justify-content: center;
     box-shadow: 8px -8px 8px rgb(66, 62, 62);
+    border-radius: 20px;
+    border-style: double;
 }
-.content img{
+img{
     border: 2px solid red;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 8px -8px 8px black;
 }
-.container {
+p {
     background-color: rgb(165, 238, 177);
     color: rgb(193, 17, 17);
     font-size: 22px;
     font-weight: 800;
     border: 3px solid rgb(34, 128, 191);
     padding: 10px;
-    margin: 40px;
+    margin: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 8px -8px 8px rgb(86, 77, 77);
 }
 .dishes{
+    display: block;
+    text-align: center;
     margin: 50px;
     border: 1px solid red;
-    text-align: center;
     background:rgb(125, 229, 238);
     box-shadow: 8px -8px 8px rgb(88, 77, 77);
 }
