@@ -1,4 +1,4 @@
-Body{
+body{
     display: flex;
     justify-content: center;
 }
@@ -18,7 +18,7 @@ button {
 
 
 .sugarcream {
-    background: rgb(249, 209, 209);
+    background: linear-gradient(to right, rgb(249, 209, 209), white, rgb(210, 207, 207));
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ h1 {
     font-size: 8vw;
     color: rgb(241, 232, 218);
     text-align: center;
-    background: rgb(61, 215, 242);
+    background: linear-gradient(to right, rgb(61, 215, 242), rgb(239, 36, 36));
     height: auto;
     padding: 30px;
     border: 3px solid rgb(235, 65, 65);
@@ -69,6 +69,7 @@ p {
     height: auto;
     padding: 20px;
     box-shadow: 6px -6px 6px gray;
+    text-align: justify;
 }
 strong {
     background-color: rgb(243, 246, 172);
@@ -87,7 +88,7 @@ h3 {
     display: inline;
     margin-left: 40px;
 }
-.ing, .steps {
+.ing, .steps{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -102,4 +103,5 @@ li {
 }
 ol, ul {
     margin-left: 60px;
+    text-align: justify;
 }
