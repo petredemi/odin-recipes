@@ -56,7 +56,7 @@ img{
     flex: auto;
 }
 p {
-    background: linear-gradient(to right, #a5eeb1, rgb(240, 242, 143));
+    background: linear-gradient(to right, #8af89d, #ffffff, #72fe89);
     color: rgb(193, 17, 17);
     font-size: 22px;
     font-weight: 800;
