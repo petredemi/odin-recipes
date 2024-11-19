@@ -8,21 +8,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to left,#c6b7b7b0, #ffffff, #eac9c9f1, white, rgba(236, 207, 207, 0.885));
     margin: 15px;
-    max-width: 90%;
-    border: 3px solid black;
-    border-radius: 20px;
+    max-width: 100%;
+    border: 1px solid black;
 }
 
-h1 {color: rgb(238, 22, 7);
+h1 {color:darkgreen;
     font-size: 6vw;
     font-weight: 900;
     font-style: italic;
     font-family:Verdana, Geneva, Tahoma;
-    background-color: rgb(125, 229, 238);
-    background-image: linear-gradient(to right, rgba(240, 56, 56, 0.864), rgba(63, 63, 210, 0.944));
-    border: 2px solid rgb(46, 177, 74);
     padding: 10px;
     margin: 40px;
     width: 80%;
@@ -31,57 +26,76 @@ h1 {color: rgb(238, 22, 7);
     justify-content: center;
     align-items: center;
     flex: 0 3 auto;
+    border: 1px solid black;
     text-shadow: 6px 6px 4px black;
-    box-shadow: 6px -6px 4px rgb(96, 85, 85);
+    box-shadow: 6px -6px 4px rgb(59, 58, 58);
+}
+.background{
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    background-image: url('./recipes/images/background4.jpg');
+    background-size:cover;
+    background-position: center;
+    flex: 0 2 auto;
+    
 }
 .content {
-    background: rgb(244, 244, 143);
-    margin: 20px;
+    background: rgba(1, 1, 1, 0.186);
+    margin: 10px;
     display: flex;
     justify-content: center;
     padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     box-shadow: 8px -8px 8px rgb(66, 62, 62);
-    border-radius: 20px;
+    border-radius: 10px;
     border-style: double;
-    width: 90%;
+    width: 95%;
     flex: 0 2 auto;
 }
 img{
-    border: 2px solid red;
-    margin: 8px;
+    border: 1px solid black;
+    margin: 10px;
     width: 15vw;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 8px -8px 8px black;
+    box-shadow: 2px -2px 8px black;
     flex: auto;
 }
 p {
-    background: linear-gradient( 130deg, grey, white, grey, white, grey);
-    color: rgb(193, 17, 17);
+    color: rgb(23, 23, 23);
     font-size: 22px;
-    font-weight: 800;
-    border: 3px solid rgb(34, 128, 191);
+    border: 2px solid darkcyan;
+    border-left: 25px solid darkcyan;
+    border-radius: 15px 0px 0px 15px;
     padding: 35px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 10px;
-    border-radius: 10px;
     box-shadow: 8px -8px 8px rgb(86, 77, 77);
+    column-count: 2;
+    column-rule: 3px outset rgb(168, 167, 167);
+    column-gap: 30px;
+    text-align: justify;
+}
+p::first-letter{
+    font-size: 3rem;
+    color: darkorange;
+    font-weight: 700;
 }
 .dishes{
     display: block;
     text-align: center;
     margin: 50px;
-    border: 4px solid red;
-    background:rgb(125, 229, 238);
+    border: 1px solid darkblue;
     box-shadow: 8px -8px 8px rgb(88, 77, 77);
 }
 .dishes button{
-    font-size: 25px;
-    background: rgb(239, 189, 64);
+    font-size: 20px;
+    background: rgb(64, 239, 178);
     margin: 10px;
-    font-weight: bold;
     padding: 5px;
+    border-radius: 8px;
 
 }
 

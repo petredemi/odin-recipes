@@ -5,8 +5,7 @@ body {
 .cheesepie {
     background: rgb(247, 247, 215);
     max-width: 90%;
-    border: 3px solid brown;
-    border-radius: 10px;
+    border: 1px solid brown;
 }
 button {
     font-size: 24px;
@@ -38,7 +37,7 @@ button {
     font-size: 8vw;
     font-weight: bold;
     color: rgba(12, 150, 47, 0.899);
-    background-color: rgb(239, 173, 91);
+    background-color: rgb(236, 182, 115);
     text-shadow: 1px 1px 2px black, 0 0 35px rgb(70, 40, 221), 0 0 10px rgb(6, 6, 225);
     border-radius: 10px;
     box-shadow: 5px -5px 5px gray;
@@ -63,17 +62,21 @@ button {
 .pie {
     background-color: aquamarine;
     font-size: 18px;
-    font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 10px;
     border: 3px solid rgb(15, 115, 209);
     box-shadow: 5px -5px 5px gray;
+    column-count: 2;
+    column-rule: 2px solid grey;
+    column-gap: 30px;
+    text-align: justify;
+    padding: 20px;
 }
 
 strong {
-    color:coral;
+    color:darkorange;
     font-size: 25px;
     font-weight: 800;
 }
