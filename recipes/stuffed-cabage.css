@@ -17,9 +17,8 @@ button {
 
 .staffedcabbage {
     background: rgb(245, 215, 245);
-    margin: 10px;
-    padding: 10px;
-    max-width: 90%;
+    padding: 1px;
+    max-width: 1000px;
     border: 1px solid black;
    
 }
@@ -36,7 +35,7 @@ h3 {
     color: red;
     font-size: 30px;
     text-shadow: 1px -1px 2px black;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 h4 {
     margin-left: 30px;
@@ -55,24 +54,39 @@ img{
     border: 3px solid rgb(4, 165, 4);
     border-radius: 15px;
     box-shadow: 4px -6px 3px black;
-    width: 20vw;
+    width: 18vw;
     height: auto;
 }
-li, p{
-    margin-left: 30px;
-    margin-right: 30px;
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    padding: 3px;
+    text-align: justify;
+}
+p::first-letter{
+    font-size: 3rem;
+    color: darkorange;
+    text-shadow: 1px 1px 4px black;
+}
+li{
+    margin-left: 1px;
+    margin-right: 10px;
     font-size: 18px;
     padding: 3px;
 }
+
 ul, ol{
-    margin-left: 60px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
     border-radius: 15px;
     border: 2px solid black;
     background: rgb(174, 243, 185);
     padding-left: 30px;
+    min-width: 360px;
+    height: auto;
 }
 ol {
-    margin-left: 60px;
+    margin-left: 30px;
     background: rgb(243, 243, 182);
 }

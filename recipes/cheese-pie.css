@@ -4,7 +4,7 @@ body {
 }
 .cheesepie {
     background: rgb(247, 247, 215);
-    max-width: 90%;
+    max-width: 900px;
     border: 1px solid brown;
 }
 button {
@@ -54,17 +54,17 @@ button {
 }
 .container img{
     border: 2px solid red;
-    margin: 8px;
+    margin: 5px;
     box-shadow: 5px -5px 5px grey;
-    width: 16vw;
+    width: 20vw;
     height: auto;
 }
 .pie {
     background-color: aquamarine;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
     border: 3px solid rgb(15, 115, 209);
     box-shadow: 5px -5px 5px gray;
@@ -79,25 +79,26 @@ strong {
     color:darkorange;
     font-size: 25px;
     font-weight: 800;
+    text-shadow: 1px 1px 3px black;
 }
 h3 {
     color: red;
     font-size: 25px;
-    margin: 40px;
+    margin: 10px;
     margin-bottom: 10px;
 }
 .ingredients {
     color:darkgreen;
     font-size: 18px;
     font-weight: 700;
-    margin-left: 80px;
+    margin-left: 40px;
     padding: 8px;
 }
 .steps{
     color: dodgerblue;
     font-size: 18px;
-    font-weight: 700;
-    margin-left: 80px;
+    font-weight: 600;
+    margin-left: 40px;
 }
 p,ul,ol { 
     border: 2px;
