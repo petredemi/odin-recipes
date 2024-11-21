@@ -3,10 +3,10 @@ body{
     justify-content: center;
 }
 button {
-    font-size: 22px;
+    font-size: 20px;
     color: red;
     text-shadow: 1px 1px 2px black;
-    width: 120px;
+    width: 100px;
     height: 40px;
     font-weight: 500;
     margin-left: 40px;

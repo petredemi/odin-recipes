@@ -33,7 +33,7 @@ h1 {color:darkgreen;
 .background{
     width: 95%;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     background-image: url('./recipes/images/craciunita.jpg');
     background-size:cover;
     background-position: center;
@@ -51,22 +51,22 @@ h1 {color:darkgreen;
     box-shadow: 8px -8px 8px rgb(66, 62, 62);
     border-radius: 10px;
     border-style: double;
-    width: 95%;
     flex: 0 2 auto;
 }
 img{
     border: 1px solid black;
-    margin: 10px;
-    width: 15vw;
+    margin: 5px;
+    width: 17vw;
     height: auto;
     box-shadow: 2px -2px 8px black;
     flex: auto;
+    min-width: 80px;
 }
 p {
     color: rgb(23, 23, 23);
     font-size: 1.1rem;
     border: 2px solid darkcyan;
-    border-left: 25px solid darkcyan;
+    border-left: 20px solid darkcyan;
     border-radius: 15px 0px 0px 15px;
     padding: 15px;
     margin-right: 50px;
