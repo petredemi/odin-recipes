@@ -14,7 +14,7 @@ body{
 }
 
 h1 {color:darkgreen;
-    font-size: 6vw;
+    font-size: 7vw;
     font-weight: 900;
     font-style: italic;
     font-family:Verdana, Geneva, Tahoma;
@@ -27,14 +27,14 @@ h1 {color:darkgreen;
     align-items: center;
     flex: 0 3 auto;
     border: 1px solid black;
-    text-shadow: 6px 6px 4px black;
+    text-shadow: 3px 3px 4px black;
     box-shadow: 6px -6px 4px rgb(59, 58, 58);
 }
 .background{
     width: 95%;
     margin: 20px;
     padding: 20px;
-    background-image: url('./recipes/images/background4.jpg');
+    background-image: url('./recipes/images/craciunita.jpg');
     background-size:cover;
     background-position: center;
     flex: 0 2 auto;
@@ -64,7 +64,7 @@ img{
 }
 p {
     color: rgb(23, 23, 23);
-    font-size: 1rem;
+    font-size: 1.1rem;
     border: 2px solid darkcyan;
     border-left: 25px solid darkcyan;
     border-radius: 15px 0px 0px 15px;
