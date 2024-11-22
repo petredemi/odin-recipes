@@ -4,10 +4,10 @@ body {
     justify-content: center;
 }
 button {
-    font-size: 22px;
+    font-size: 1.2rem;
     color: red;
     text-shadow: 1px 1px 2px black;
-    width: 120px;
+    width: 110px;
     height:40px;
     font-weight: 500;
     margin-left: 30px;
@@ -58,7 +58,8 @@ h4 {
 .img-set{
     display: block;
     padding: 5px;
-    margin: 20px;
+    margin: 15px;
+    border-radius: 10px;
     width: fit-content;
     background: rgba(0, 0, 0, 0.357);
 }
@@ -101,4 +102,11 @@ ul, ol{
 ol {
     margin-left: 30px;
     background: rgb(243, 243, 182);
+}
+footer{
+    background-color: rgb(225, 221, 221);
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
 }

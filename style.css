@@ -1,14 +1,15 @@
 
 body{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .recipes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
+    margin: 10px;
+    margin-bottom: 0px;
     max-width: 100%;
     border: 1px solid black;
 }
@@ -31,7 +32,7 @@ h1 {color:darkgreen;
     box-shadow: 6px -6px 4px rgb(59, 58, 58);
 }
 .background{
-    width: 95%;
+    width: 97%;
     margin: 20px;
     padding: 10px;
     background-image: url('./recipes/images/craciunita.jpg');
@@ -66,18 +67,18 @@ p {
     color: rgb(23, 23, 23);
     font-size: 1.1rem;
     border: 2px solid darkcyan;
-    border-left: 20px solid darkcyan;
+    border-left: 15px solid darkcyan;
     border-radius: 15px 0px 0px 15px;
-    padding: 15px;
+    padding: 12px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 10px;
     box-shadow: 8px -8px 8px rgb(86, 77, 77);
     column-count: 2;
     column-rule: 3px outset rgb(168, 167, 167);
-    column-gap: 30px;
+    column-gap: 20px;
     text-align: justify;
-    min-width: 340px;
+    min-width: 320px;
     line-height: 1.4;
 }
 p::first-letter{
@@ -100,6 +101,14 @@ p::first-letter{
     padding: 5px;
     border-radius: 8px;
 
+}
+footer{
+    text-align: center;
+    background: rgb(221, 219, 219);
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
 }
 
 
