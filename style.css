@@ -1,7 +1,9 @@
 
 body{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    text-align: center;
+    width: auto;
+    margin: auto;
 }
 
 .recipes {
@@ -10,12 +12,13 @@ body{
     align-items: center;
     margin: 10px;
     margin-bottom: 0px;
-    max-width: 100%;
+    max-width: 900px;
     border: 1px solid black;
+    margin: auto;
 }
 
 h1 {color:darkgreen;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 900;
     font-style: italic;
     font-family:Verdana, Geneva, Tahoma;
@@ -31,9 +34,24 @@ h1 {color:darkgreen;
     text-shadow: 3px 3px 4px black;
     box-shadow: 6px -6px 4px rgb(59, 58, 58);
 }
+.europe{
+    display: block;
+    width: 100%;
+}
+h2{
+    text-align: left;
+    max-width: 900px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 20px;
+    color: darkcyan;
+    text-shadow: 1px 1px 1px black;
+
+}
 .background{
     width: 97%;
     margin: 20px;
+    margin-top: 5px;
     padding: 10px;
     background-image: url('./recipes/images/craciunita.jpg');
     background-size:cover;
@@ -62,12 +80,13 @@ img{
     box-shadow: 2px -2px 8px black;
     flex: auto;
     min-width: 80px;
+    max-width: 200px;
 }
 p {
     color: rgb(23, 23, 23);
     font-size: 1.1rem;
     border: 2px solid darkcyan;
-    border-left: 15px solid darkcyan;
+    border-left: 18px solid darkcyan;
     border-radius: 15px 0px 0px 15px;
     padding: 12px;
     margin-right: 50px;
@@ -106,9 +125,9 @@ footer{
     text-align: center;
     background: rgb(221, 219, 219);
     margin-top: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 10px;
+    max-width: 885px;
+    margin: auto;
 }
 
 

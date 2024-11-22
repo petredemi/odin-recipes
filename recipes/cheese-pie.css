@@ -46,7 +46,7 @@ button {
     padding-right: 60px;
 }
 .container{
-    margin: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
 
@@ -57,6 +57,7 @@ button {
     box-shadow: 5px -5px 5px grey;
     width: 20vw;
     height: auto;
+    max-width: 200px ;
 }
 .pie {
     background-color: aquamarine;
