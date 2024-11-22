@@ -98,6 +98,7 @@ p {
     column-gap: 20px;
     text-align: justify;
     min-width: 320px;
+    max-width: 700px;
     line-height: 1.4;
 }
 p::first-letter{
@@ -112,6 +113,13 @@ p::first-letter{
     margin: 50px;
     border: 1px solid darkblue;
     box-shadow: 8px -8px 8px rgb(88, 77, 77);
+}
+.transilvania{
+    font-size: 1.3rem;
+    color: darkblue;
+    font-weight: 500;
+    text-align: left;
+    padding: 5px;
 }
 .dishes button{
     font-size: 20px;
