@@ -44,8 +44,8 @@ h1{
     max-width: 380px;
     margin-bottom: 25px;
     margin: 8px;
-    font-size: 0.95rem;
     text-align: justify;
+    font-size: 0.95rem;
     background-color: white;
 }
 p{ 
@@ -70,7 +70,7 @@ li{
 }
 @media(max-width: 600px){
     .description{
-        min-width:380px;
+        min-width:360px;
     }
     h1{
         font-size: 3rem;

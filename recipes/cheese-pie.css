@@ -116,3 +116,8 @@ footer{
     text-align: center;
     padding: 10px;
 }
+@media(max-width: 460px){
+    .pie{
+        column-count: 1;
+    }
+}

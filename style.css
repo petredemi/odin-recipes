@@ -143,6 +143,13 @@ footer{
     max-width: 900px;
     margin: auto;
 }
-
+@media(max-width:450px){
+    p{
+        column-count: 1;
+    }
+    .recipes{
+        zoom: 0.98;
+    }
+}
 
     
