@@ -85,7 +85,8 @@ img{
     float: left;
 }
 footer{
-    background-color: rgb(220, 217, 217);
     text-align: center;
     padding: 10px;
+    background: rgb(53, 36, 65);
+    color: aliceblue;
 }

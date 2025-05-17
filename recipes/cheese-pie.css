@@ -112,9 +112,10 @@ p,ul,ol {
     font-weight:bold;
 }
 footer{
-    background-color: rgb(220, 217, 217);
     text-align: center;
     padding: 10px;
+    background: rgb(53, 36, 65);
+    color: aliceblue;
 }
 @media(max-width: 460px){
     .pie{
