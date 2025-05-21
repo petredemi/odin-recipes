@@ -49,6 +49,7 @@ h2{
     margin-top: 5px;
     padding-left: 20px;
     color: darkcyan;
+    font-size: 1.6rem;
     text-shadow: 1px 1px 1px black;
     background-color: white;
 
@@ -139,6 +140,27 @@ p::first-letter{
     padding: 5px;
     border-radius: 8px;
 
+}
+.contribute{
+    border: 1px solid rgb(82, 82, 82);
+    max-width: 880px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+}
+.contribute > h4{
+    margin-bottom: 10px;
+    text-align: left;
+}
+ul{
+    display: block;
+    text-align: left;
+}
+li{
+    list-style:disc;
 }
 footer{
     text-align: center;
