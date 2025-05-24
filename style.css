@@ -162,6 +162,9 @@ ul{
 li{
     list-style:none;
 }
+.seo{
+    width: 90%;
+}
 footer{
     text-align: center;
     background: rgb(53, 36, 65);
