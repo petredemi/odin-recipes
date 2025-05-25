@@ -164,6 +164,8 @@ li{
 }
 .seo{
     width: 90%;
+    line-height: 1.5;
+    font-size: 1rem;
 }
 footer{
     text-align: center;
