@@ -16,6 +16,7 @@ button {
     margin-left: 30px;
     border: 2px solid black;
     background: white;
+    text-shadow: 1px 1px 0px black;
     border-radius: 10px;
     font-weight: 600;
     

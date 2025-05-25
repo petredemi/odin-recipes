@@ -14,6 +14,7 @@ button {
     border: 2px solid black;
     background: white;
     border-radius: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 .back{
     position: sticky;
