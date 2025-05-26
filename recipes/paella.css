@@ -1,15 +1,18 @@
-button{
-    font-size: 1.1rem;
-    font-weight: 600;
+.back{
+    position: sticky;
+    top: 3%;
     color: red;
-    background-color: white;
+    font-size: 1.2rem;
+    padding: 3px;
     font-weight: 600;
-    width: 120px;
-    height: 35px;
-    border-radius: 10px;
-    margin: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 5px;
     text-shadow: 1px 1px 0px black;
 }
+
 body{
     display: flex;
     justify-content: center;

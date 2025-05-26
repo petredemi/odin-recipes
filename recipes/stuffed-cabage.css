@@ -1,33 +1,29 @@
  
 body {
-    display: flex;
-    justify-content: center;
+    padding: 0px;
+    width: 100vw;
+    margin: 0px;
+
 }
 .back{
     position: sticky;
     top: 3%;
-}
-button {
-    font-size: 1.1rem;
-    color:red;
-    width: 120px;
-    height:35px;
-    font-weight: 500;
-    margin-left: 30px;
+    color: red;
+    font-size: 1.2rem;
+    padding: 3px;
+    width: 110px;
+    font-weight: 600;
+    margin-left: 40px;
     border: 2px solid black;
     background: white;
+    border-radius: 5px;
     text-shadow: 1px 1px 0px black;
-    border-radius: 10px;
-    font-weight: 600;
-    
 }
-
 .staffedcabbage {
     background: rgb(245, 215, 245);
-    padding: 1px;
     max-width: 1000px;
     border: 1px solid black;
-   
+    margin: auto;
 }
 
 h1 {
@@ -35,7 +31,7 @@ h1 {
     font-size: 5vw;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin-top: 20px;
     text-shadow: 1px -1px 3px black ;
 }
 h3 {
@@ -43,6 +39,7 @@ h3 {
     font-size: 30px;
     text-shadow: 1px -1px 2px black;
     margin-left: 20px;
+    width: auto;
 }
 h4 {
     margin-left: 30px;
@@ -50,37 +47,37 @@ h4 {
 .images{
     display: flex;
     justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin: 20px;
-    border: 2px solid rgb(9, 35, 35);
-    background-image: url('./images/bacgroundflower1.jpg');
+    margin: auto;
+    margin-bottom: 40px;
+    border: 0px solid rgb(9, 35, 35);
+    background-image: url('./images/restaurant1.jpeg');
     background-size:cover;
     background-position: top;
     object-fit: scale-down;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-
 
 .img-set{
     display: block;
     padding: 5px;
-    margin: 15px;
+    margin: 20px;
     border-radius: 10px;
     width: fit-content;
     background: rgba(0, 0, 0, 0.357);
 }
 img{ 
-    margin: 5px;
+    margin: 10px;
     border: 1px solid rgb(4, 165, 4);
     width: 19vw;
     height: auto;
     min-width: 100px;
+    max-width: 200px;
 }
 p{
-    margin-left: 20px;
-    margin-right: 20px;
     font-size: 1.1rem;
-    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
 }
 p::first-letter{
@@ -96,17 +93,17 @@ li{
 }
 
 ul, ol{
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
     border-radius: 15px;
     border: 2px solid black;
     background: rgb(174, 243, 185);
     padding-left: 30px;
-    min-width: 360px;
+    min-width: 320px;
+    max-width: 700px;
     height: auto;
 }
 ol {
-    margin-left: 30px;
     background: rgb(243, 243, 182);
 }
 footer{
@@ -117,3 +114,17 @@ footer{
     background: rgb(53, 36, 65);
     color: aliceblue;
 }
+@media(max-width:450px){
+    p{
+        max-width: 360px;
+        margin: auto;
+    }
+    .img-set{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    img{
+        margin: 5px;
+    }
+}
+
