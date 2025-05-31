@@ -118,7 +118,8 @@ p::first-letter{
     margin: 15px;
 }
 .dishes{
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 170px;
     text-align: center;
     margin: 1px;
@@ -126,6 +127,15 @@ p::first-letter{
     box-shadow: 8px -8px 8px rgb(88, 77, 77);
     margin-left: 20px;
 }
+.dishes a{
+    font-size: 16px;
+    background: rgb(64, 239, 178);
+    width: 130px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
 .transilvania{
     font-size: 1.2rem;
     color: darkblue;
@@ -133,7 +143,7 @@ p::first-letter{
     text-align: left;
     padding: 5px;
 }
-.dishes button{
+.dishess buttons{
     font-size: 16px;
     background: rgb(64, 239, 178);
     margin: 10px;
