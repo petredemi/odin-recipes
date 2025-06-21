@@ -5,6 +5,20 @@ body{
     width: auto;
     margin: auto;
 }
+.seo{
+    width: 90%;
+    line-height:0.7rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
 
 .recipes {
     display: flex;
@@ -24,6 +38,7 @@ h1 {color:darkgreen;
     font-family:Verdana, Geneva, Tahoma;
     padding: 10px;
     margin: 40px;
+    margin-bottom: 20px;
     width: 80%;
     height: fit-content;
     display: flex;
@@ -151,6 +166,12 @@ p::first-letter{
     border-radius: 8px;
 
 }
+.whattoeat{
+    font-size: 1rem;
+    text-align: left;
+    width: 90%;
+
+}
 .contribute{
     border: 1px solid rgb(82, 82, 82);
     max-width: 880px;
@@ -171,11 +192,6 @@ ul{
 }
 li{
     list-style:none;
-}
-.seo{
-    width: 90%;
-    line-height: 1.5;
-    font-size: 1rem;
 }
 footer{
     text-align: center;
