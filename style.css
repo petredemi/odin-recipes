@@ -18,8 +18,6 @@ body{
     color: rgb(255, 255, 255);
     border: none;
 }
-
-
 .recipes {
     display: flex;
     flex-direction: column;
